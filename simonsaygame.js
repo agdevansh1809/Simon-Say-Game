@@ -18,9 +18,7 @@ document.addEventListener("keypress", function () {
     levelup();
 });
 
-if (started=true){
-    document.addEventListener("keypress",reset);
-}
+
 
 function levelup() {
     userSeq=[];
